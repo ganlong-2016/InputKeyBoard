@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="1dp"
+    android:keyHeight="53dp"
+    android:keyWidth="25%p"
+    android:verticalGap="1dp">
+    <Row android:layout_marginBottom="10dp">
+        <Key
+            android:codes="49"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="3" />
+        <Key
+            android:codes="@integer/keycode_delete"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/delete" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="52"
+            android:keyLabel="4" />
+        <Key
+            android:codes="53"
+            android:keyLabel="5" />
+        <Key
+            android:codes="54"
+            android:keyLabel="6" />
+        <Key
+            android:codes="@integer/keycode_clear"
+            android:keyLabel="清空" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="55"
+            android:keyLabel="7" />
+        <Key
+            android:codes="56"
+            android:keyLabel="8" />
+        <Key
+            android:codes="57"
+            android:keyLabel="9" />
+        <Key
+            android:codes="@integer/keycode_hide"
+            android:keyIcon="@drawable/hide" />
+    </Row>
+    <Row>
+        <Key android:codes="@integer/keycode_useless"/>
+
+        <Key
+            android:codes="48"
+            android:keyLabel="0" />
+        <!--<Key android:codes="66607" android:keyLabel="确定" />-->
+        <Key
+            android:codes="@integer/keycode_point"
+            android:keyLabel="." />
+        <Key
+            android:codes="@integer/keycode_next"
+            android:iconPreview="@drawable/bg_custom_key_blue"
+            android:keyEdgeFlags="right"
+            android:keyLabel="下一项" />
+    </Row>
+</Keyboard>  
