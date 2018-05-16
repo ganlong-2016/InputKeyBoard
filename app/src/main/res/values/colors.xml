@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="custom_key_white_pressed">#FFEFF2F5</color>
+
+    <color name="custom_key_white">#FFFFFFFF</color>
+
+    <color name="custom_key_black">#FF212121</color>
+
+    <color name="custom_key_blue">#FF4DA9FF</color>
+
+    <color name="custom_key_line">#FFE0E0E0</color>
+</resources>

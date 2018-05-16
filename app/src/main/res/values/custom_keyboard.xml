@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基础-->
+    <integer name="keycode_clear">-1000</integer>
+    <integer name="keycode_delete">-1001</integer>
+    <integer name="keycode_hide">-1002</integer>
+    <integer name="keycode_determine">-1003</integer>
+    <integer name="keycode_system_keyboard">-1004</integer>
+    <integer name="keycode_00">-1005</integer>
+    <integer name="keycode_useless">-1006</integer>
+
+    <!--股票搜索键盘-->
+    <integer name="keycode_600">-10000</integer>
+    <integer name="keycode_300">-10001</integer>
+    <integer name="keycode_000">-10002</integer>
+    <integer name="keycode_stock_abc">-10003</integer>
+    <integer name="keycode_stock_123">-10004</integer>
+    <!--股票交易键盘-->
+    <integer name="keycode_point">-10100</integer>
+    <integer name="keycode_next">-10101</integer>
+
+    <!--股票数量键盘-->
+    <integer name="keycode_stock_num_all">-10200</integer>
+    <integer name="keycode_stock_num_half">-10201</integer>
+    <integer name="keycode_stock_num_1_3">-10202</integer>
+    <integer name="keycode_stock_num_1_4">-10203</integer>
+
+    <!--密码键盘-->
+    <integer name="keycode_password_abc">-10300</integer>
+    <integer name="keycode_password_123">-10301</integer>
+
+
+    <item type="id" name="keyboard_view_move_height" />
+    <item type="id" name="edit_text_bind_keyboard" />
+</resources>
