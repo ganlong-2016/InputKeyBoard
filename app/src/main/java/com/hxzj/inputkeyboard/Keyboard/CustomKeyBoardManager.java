@@ -1,12 +1,10 @@
 package com.hxzj.inputkeyboard.Keyboard;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
-import android.support.annotation.Nullable;
 import android.text.Editable;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
